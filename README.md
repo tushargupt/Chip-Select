@@ -1,4 +1,4 @@
-# Chip Dropdown - Zepto Logo
+# Chip Dropdown
 
 ![Zepto Logo](https://upload.wikimedia.org/wikipedia/en/7/7d/Logo_of_Zepto.png)
 
@@ -23,7 +23,7 @@ In addition to the core functionality, the Chip Dropdown implementation includes
 
 ## Usage
 
-To experience the Chip Dropdown in action, visit the [Chip Dropdown Demo](demo_link).
+To experience the Chip Dropdown in action, visit the [Chip Dropdown Demo](https://tushargupt.github.io/Chip-Select/).
 
 ## Getting Started
 
