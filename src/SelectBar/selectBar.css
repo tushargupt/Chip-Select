@@ -1,0 +1,64 @@
+.dropdown-options {
+    max-height: 300px;
+    width: 300px;
+    overflow: auto;
+    border: 5px soild red;
+    position: absolute;
+    top: 35px;
+    box-shadow: rgba(0, 0, 0, 6) 0px 0px 6px -3px;
+    border-radius: 5px;
+    padding: 5px;
+    &::-webkit-scrollbar {
+        display: none;
+      }
+     
+      scrollbar-width: thin;
+      scrollbar-color: transparent transparent;
+      overflow: -moz-scrollbars-none;
+}
+.chip {
+    display: flex;
+    width: 300px;
+    margin: 18px 0px;
+}
+.selected-chips {
+    padding-bottom: 5px;
+    border-bottom: 1.5px solid #86B6F6;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    min-width: 600px;
+}
+.chip-remove-icon {
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: inherit;
+}
+.selectbox {
+    position: relative;
+}
+.chip-selected{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(223, 223, 223);
+    padding: 2px 10px;
+    padding-left: 0px;
+}
+.highlighted {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(193, 114, 114);
+    padding: 2px 10px;
+    padding-left: 0px;
+}
+.image-avatar {
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+}

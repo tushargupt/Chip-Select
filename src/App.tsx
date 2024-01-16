@@ -1,24 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
+import SelectBar from './SelectBar'
 import './App.css';
+import { usersArray } from './Util/data';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <section style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+        <h3 style={{ color: '#F54149' }}>
+          ZEPTO
+        </h3>
+        <SelectBar options={usersArray}/>
+      </section>
+
     </div>
   );
 }
