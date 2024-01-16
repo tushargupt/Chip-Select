@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Chip-Select/static/css/main.04b6bd9f.css",
+    "main.js": "/Chip-Select/static/js/main.9956390e.js",
+    "static/js/787.3d669624.chunk.js": "/Chip-Select/static/js/787.3d669624.chunk.js",
+    "index.html": "/Chip-Select/index.html",
+    "main.04b6bd9f.css.map": "/Chip-Select/static/css/main.04b6bd9f.css.map",
+    "main.9956390e.js.map": "/Chip-Select/static/js/main.9956390e.js.map",
+    "787.3d669624.chunk.js.map": "/Chip-Select/static/js/787.3d669624.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04b6bd9f.css",
+    "static/js/main.9956390e.js"
+  ]
+}
